@@ -8,7 +8,5 @@ resources:
 - ../../base/metric-server
 - ../../base/checkov
 
-generators:
-  - podmonitor.yaml
 #patchesStrategicMerge:
 #- dev-deployment.yaml
