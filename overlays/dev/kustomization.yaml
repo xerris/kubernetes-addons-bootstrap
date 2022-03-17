@@ -6,5 +6,6 @@ bases:
 - ../../base/polaris
 - ../../base/pull-secret-patcher
 - ../../base/metric-server
+- ../../base/checkov
 #patchesStrategicMerge:
 #- dev-deployment.yaml
