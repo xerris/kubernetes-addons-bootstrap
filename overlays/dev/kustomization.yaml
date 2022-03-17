@@ -7,5 +7,8 @@ bases:
 - ../../base/pull-secret-patcher
 - ../../base/metric-server
 - ../../base/checkov
+
+resources:
+  - podmonitor.yaml
 #patchesStrategicMerge:
 #- dev-deployment.yaml

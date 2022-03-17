@@ -6,4 +6,4 @@ resources:
 - prometheus-ns.yaml
 - prometheus-repository.yaml
 - prometheus-release.yaml
-#- podmonitor.yaml
+
