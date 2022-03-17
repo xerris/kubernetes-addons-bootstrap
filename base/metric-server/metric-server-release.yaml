@@ -6,8 +6,8 @@ spec:
   interval: 5m
   chart:
     spec:
-      version: 3.8.2
-      chart: metrics-server
+      version: 4.7.0
+      chart: kube-state-metrics
       sourceRef:
         kind: HelmRepository
         name: metrics-server
