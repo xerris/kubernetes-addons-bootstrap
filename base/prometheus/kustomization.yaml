@@ -6,6 +6,4 @@ resources:
 - prometheus-ns.yaml
 - prometheus-repository.yaml
 - prometheus-release.yaml
-
-patchesStrategicMerge:
-- podmonitor.yaml
+#- podmonitor.yaml
