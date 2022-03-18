@@ -2,9 +2,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 metadata:
   name: emissady-system
-crds:
-  - aes-crds.yaml
 resources:
+- aes-crds.yaml
 - ambassador-ns.yaml
 - ambassador-repository.yaml
 - ambassador-release.yaml
