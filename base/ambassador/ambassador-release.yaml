@@ -2,7 +2,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: ambassador-edge-stack
-  namespace: emissady-system
+  namespace: emissary-system
 spec:
   interval: 5m
   chart:
