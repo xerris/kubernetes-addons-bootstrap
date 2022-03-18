@@ -3,8 +3,6 @@ kind: Kustomization
 metadata:
   name: emissady-system
 resources:
-- aes-crds.yaml
-- ambassador-ns.yaml
 - ambassador-repository.yaml
 - ambassador-release.yaml
 
