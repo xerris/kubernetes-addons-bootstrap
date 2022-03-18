@@ -3,7 +3,7 @@ kind: Kustomization
 metadata:
   name: emissady-system
 crds:
-  - https://app.getambassador.io/yaml/edge-stack/2.2.2/aes-crds.yaml
+  - aes-crds.yaml
 resources:
 - ambassador-ns.yaml
 - ambassador-repository.yaml
