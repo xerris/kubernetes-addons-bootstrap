@@ -1,0 +1,8 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: datawire
+  namespace: emissary-system
+spec:
+  interval: 1m
+  url: https://app.getambassador.io
