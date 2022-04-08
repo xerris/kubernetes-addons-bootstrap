@@ -6,5 +6,3 @@ resources:
 - ../../base/polaris
 - ../../base/pull-secret-patcher
 - ../../base/metric-server
-- ../../base/checkov
-- ../../base/ambassador
