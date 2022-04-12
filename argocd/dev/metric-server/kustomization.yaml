@@ -1,0 +1,24 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+helmCharts:
+- name: metrics-server
+  repo: https://prometheus-community.github.io/helm-charts
+  version: 4.7.0
+  releaseName: metric-server-stack
+  namespace: kube-system
+  includeCRDs: true
+  valuesInline:
+    args:
+      - --kubelet-insecure-tls
+    alertmanager:
+      enabled: false
+    grafana:
+      sidecar:
+        dashboards:
+          searchNamespace: ALL
+    prometheus:
+      prometheusSpec:
+        podMonitorSelector:
+          matchLabels:
+            app.kubernetes.io/part-of: argocd
